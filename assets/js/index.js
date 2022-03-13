@@ -1,11 +1,9 @@
 function expand() {
-    var element = document.getElementById("sidenav");
-    element.classList.remove("is-collapsed");
+    $("#sidenav").removeClass(".is-collapsed")
   }
   
   function collapse() {
-    var element = document.getElementById("sidenav");
-    element.classList.add("is-collapsed");
+    $("#sidenav").addClass(".is-collapsed");
   }
   
   function toggle() {
